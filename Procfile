@@ -1,1 +1,1 @@
-worker: bash billion.py
+worker: bash sython.py
