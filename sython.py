@@ -1,4 +1,4 @@
-mport telethon
+import telethon
 from telethon import events
 from config import *
 import os
@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5159123009,
+    5299626487,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@B22UU"))
     except BaseException:
         pass
 
@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ مرحبآ... بگ في سورس bm..... 
+**☆ مرحبآ... بگ في سورس المليار ..... 
 ☆ الاصدار : 1.0
 ☆ النت..  : {ms}
 ☆ تاريخ..  : {m9zpi}
 ☆ ايديك.. : {event.sender_id}
-☆ سورس : @tem_bm**
+☆ سورس : @B22UU**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -114,7 +114,7 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5159123009
+ownerhson_id = 5299626487
 @sython.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -131,7 +131,7 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('@t06bot', 'جاري التجميع بواسطة | @Tembm')
+        await sython.send_message('@t06bot', 'جاري التجميع بواسطة | المليار ')
         channel_entity = await sython.get_entity(bot_username)
         await sython.send_message('@t06bot', '/start')
         await asyncio.sleep(5)
@@ -150,7 +150,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | BM")
+                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | SY")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
@@ -176,7 +176,7 @@ async def _(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_usernamee)
-        await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | @tembm')
+        await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | المليار ')
         channel_entity = await sython.get_entity(bot_usernamee)
         await sython.send_message('@A_MAN9300BOT', '/start')
         await asyncio.sleep(5)
@@ -195,7 +195,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | BM")
+                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | BM ")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
@@ -223,18 +223,18 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@Tem_bm"))
+        await sython(JoinChannelRequest("@B22UU"))
     except BaseException:
         pass
  
  
 GCAST_BLACKLIST = [
-    -1001884452589,
-    -1001884452589,
+    -1001865791339,
+    -1001865791339,
 ]
 
 DEVS = [
-    5159123009,
+    5299626487,
 ]
 
 def calc(num1, num2, fun):
@@ -387,20 +387,20 @@ async def spammer(event):
     
 @sython.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل | ᴛᴇᴍʙᴍ
+      await event.reply("""السـورس يعمـل |billion
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : ʙᴍ احمد | 𝘼𝙃𝙈𝙀𝘿ʙᴍ
+- المطور : BM احمد :  @B22UU
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
-قناة السورس : https://t.me/tembm
+قناة السورس : https://t.me/B22UU
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""𝘼𝙃𝙈𝙀𝘿ʙᴍ : @eee2w"""
+      await event.reply(""AhmedBM : @EEE2W"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
@@ -517,50 +517,8 @@ async def _(event):
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 32])
-        
-        
-@sython.on(events.NewMessage(outgoing=True, pattern=".مليار"))
-async def _(event):
-    event = await event.edit("تيمʙᴍ")
-    animation_interval = 0.2
-    animation_ttl = range(96)
-    await event.edit("يوزرات التيم...")
-    animation_chars = [
-        "احمد..",
-        "@eee2w",
-        "روز..",
-        "@MN_E4",
-        "عزوز..",
-        "@oo6o63",
-        "القناة............",
-        "@tem_bm",
-        "قناة...",
-        "@tembm",
-        "احمد..",
-        "@eee2w",
-        "عزوز..",
-        "@oo6o63",
-        "روز..",
-        "@MN_E4",
-        "القناة...................",
-        "@tem_bm",
-        "القناة...",
-        "@tembm",
-        "احمد..",
-        "@eee2w",
-        "روز..",
-        "@MN_E4",
-        "عزوز..",
-        "@oo6o63",
-        "شني ماشبعتو..😂😂",
-        "قناة...",
-        "@R88828",
-        "كل شيء..",
-        "قناة السورس @B22UU,
-    ]
-    for i in animation_ttl:
-        await asyncio.sleep(animation_interval)
-        await event.edit(animation_chars[i % 32])
+
+
 
 
 
