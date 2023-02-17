@@ -1,4 +1,4 @@
-import telethon
+mport telethon
 from telethon import events
 from config import *
 import os
@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO SOURCE SYTHON
-☆ VERSION : 1.3
-☆ PING : `{ms}`
-☆ DATE : `{m9zpi}`
-☆ ID : `{event.sender_id}`
-☆ SOURCE SYTHON : @SAYTHONH**
+**☆ مرحبآ... بگ في سورس bm..... 
+☆ الاصدار : 1.0
+☆ النت..  : {ms}
+☆ تاريخ..  : {m9zpi}
+☆ ايديك.. : {event.sender_id}
+☆ سورس : @tem_bm**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -131,7 +131,7 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('@t06bot', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('@t06bot', 'جاري التجميع بواسطة | @Tembm')
         channel_entity = await sython.get_entity(bot_username)
         await sython.send_message('@t06bot', '/start')
         await asyncio.sleep(5)
@@ -150,7 +150,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | SY")
+                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | BM")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
@@ -176,7 +176,7 @@ async def _(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_usernamee)
-        await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | @tembm')
         channel_entity = await sython.get_entity(bot_usernamee)
         await sython.send_message('@A_MAN9300BOT', '/start')
         await asyncio.sleep(5)
@@ -195,7 +195,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | SY")
+                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | BM")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
@@ -223,7 +223,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@SAYTHONH"))
+        await sython(JoinChannelRequest("@Tem_bm"))
     except BaseException:
         pass
  
@@ -387,20 +387,20 @@ async def spammer(event):
     
 @sython.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل | 𝐒𝐘𝐓𝐇𝐎𝐍
+      await event.reply("""السـورس يعمـل | ᴛᴇᴍʙᴍ
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : حسام فوزي | SOMY
+- المطور : ʙᴍ احمد | 𝘼𝙃𝙈𝙀𝘿ʙᴍ
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
-قناة السورس : https://t.me/SAYTHONH
+قناة السورس : https://t.me/tembm
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""SY OWNER : @T_4_Z"""
+      await event.reply("""𝘼𝙃𝙈𝙀𝘿ʙᴍ : @eee2w"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
@@ -517,8 +517,50 @@ async def _(event):
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 32])
-
-
+        
+        
+@sython.on(events.NewMessage(outgoing=True, pattern=".مليار"))
+async def _(event):
+    event = await event.edit("تيمʙᴍ")
+    animation_interval = 0.2
+    animation_ttl = range(96)
+    await event.edit("يوزرات التيم...")
+    animation_chars = [
+        "احمد..",
+        "@eee2w",
+        "روز..",
+        "@MN_E4",
+        "عزوز..",
+        "@oo6o63",
+        "القناة............",
+        "@tem_bm",
+        "قناة...",
+        "@tembm",
+        "احمد..",
+        "@eee2w",
+        "عزوز..",
+        "@oo6o63",
+        "روز..",
+        "@MN_E4",
+        "القناة...................",
+        "@tem_bm",
+        "القناة...",
+        "@tembm",
+        "احمد..",
+        "@eee2w",
+        "روز..",
+        "@MN_E4",
+        "عزوز..",
+        "@oo6o63",
+        "شني ماشبعتو..😂😂",
+        "قناة...",
+        "@R88828",
+        "كل شيء..",
+        "قناة السورس @B22UU,
+    ]
+    for i in animation_ttl:
+        await asyncio.sleep(animation_interval)
+        await event.edit(animation_chars[i % 32])
 
 
 
